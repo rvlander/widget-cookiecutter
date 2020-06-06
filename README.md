@@ -181,6 +181,7 @@ Now make some changes to your source code. Then:
 To develop this package against JupyterLab, run:
 
 - `pip install -e .` (installs python package for development, runs `npm install` and `npm run build`)
+- `jupyter labextension install @jupyter-widgets/jupyterlab-manager`: this installs a required dependency
 - `jupyter labextension install js`: this installs the current labextension into JupyterLab and enables it.
 - `jupyter lab --watch` starts JupyterLab, but in `--watch` mode: it will rebuild itself incrementally if it detects changes.
 
